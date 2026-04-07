@@ -433,7 +433,7 @@ function scalePPM(raw, min, max) {
 
 // realistic ranges
 const smoke = scalePPM(smokeRaw, 0, 300);   // 0–300 ppm
-const co = scalePPM(coraw, 0, 10);          // 0–10 ppm
+const co = scalePPM(coRaw, 0, 10);          // 0–10 ppm
 const co2 = scalePPM(airRaw, 400, 2000);    // 400–2000 ppm
 const nh3 = scalePPM(airRaw, 0, 50);        // 0–50 ppm
 
